@@ -2,6 +2,8 @@
 
 Azure WebPubSub demo for entre order related updates
 
+
+
 ## Folder Structure
 
 - `bin` - Main file for Dart
@@ -25,13 +27,19 @@ Azure WebPubSub demo for entre order related updates
 
 ## Special Notes
 
-- Trying to send any unformatted data will cause socket disconnect
+- **Trying to send any unformatted data will cause socket disconnect**
 - Steps:
     1. Retrieve socket URL from entre order API
     2. Connect to that URL using web socket
     3. Wait and listen for connection_id
     4. Send the connection id to entre order API to addToGroup
     5. Send socket message to join that group
+
+## Tutorial
+
+[https://www.youtube.com/watch?v=tUtyuz3i29M](https://www.youtube.com/watch?v=tUtyuz3i29M)
+
+[![Azure WebPubSub](https://img.youtube.com/vi/tUtyuz3i29M/0.jpg)](https://www.youtube.com/watch?v=tUtyuz3i29M)
 
 ## Credits
 
