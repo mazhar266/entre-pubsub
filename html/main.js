@@ -1,7 +1,7 @@
 $(() => {
     console.log('main.js loaded');
 
-    var API_BASE_URL = "http://localhost:5050/";
+    var API_BASE_URL = "http://localhost:5050/"; // order service url
     var socket = null;
     var connectionId = null;
 

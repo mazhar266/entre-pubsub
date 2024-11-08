@@ -4,12 +4,16 @@ Azure WebPubSub demo for entre order related updates
 
 ## Folder Structure
 
-- `lib` - Dart code for pubsub
+- `bin` - Main file for Dart
+- `lib` - Library file for Dart
 - `html` - JavaScript code for pubsub
+
+**NOTE: Update the API Url according to server**
 
 ## How to run Dart code
 
-- Run `dart run`
+- Run `dart pub get` to install packages
+- Run `dart run` to run the script
 - It will run and listen for 210 seconds (3.5 mins)
 
 ## How to run the JS code
